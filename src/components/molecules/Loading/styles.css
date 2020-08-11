@@ -1,0 +1,26 @@
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  background-color: #112340;
+  transition: ease-in-out .5s;
+}
+
+.loading.show {
+  height: 100%;
+  opacity: 1;
+}
+
+.loading-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
