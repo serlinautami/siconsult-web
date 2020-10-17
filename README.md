@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SI Consult - Web
+Website untuk menampung dan menampilkan laporan yang dibagikan pada aplikasi SI Consult
 
-## Available Scripts
+### Informasi
+- Author:Serlina Utami
+- Platform: Android
+- Teknologi: Javascript, React, Firebase, Node JS, HTML, CSS, Create React App
+- Demo: [siconsult-web.vercel.app](https://siconsult-web.vercel.app/ "https://siconsult-web.vercel.app")
 
-In the project directory, you can run:
+### Cara menjalankan project
+Project Web ini dibuat dengan CRA (Project Wrapper untuk React JS / Web). Guide nya bisa baca dulu disini: https://create-react-app.dev/docs/getting-started/
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Clone dulu repositori ini:
+```
+git clone https://github.com/serlinautami/siconsult-web.git
+```
+Setelah selesai, masuk folder project-nya lalu jalankan perintah. berikut:
+```
+// jika pakai npm
+npm install
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+// jika pakai yarn
+yarn install
+```
+Catatan: Pastikan sudah terinstall Node JS, dan NPM versi terbaru. Rekomendasi untuk pakai `yarn` .
 
-### `yarn test`
+Setelah package terinstall, jalankan perintah
+```
+// npm
+npm start
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+// yarn
+yarn start
+```
+Project web akan berjalan pada `http://localhost:3000`
 
-### `yarn build`
+### Setup Firebase
+Project ini memiliki dependensi Firebase. Untuk konfigurasinya ada pada file `appConfig.js` pada folder `src/configs`. untuk setupnya harus sama sama seperti pada repository aplikasinya.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Url untuk laporan ada pada endpoint: `/laporan`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
