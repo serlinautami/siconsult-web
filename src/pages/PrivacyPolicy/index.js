@@ -9,8 +9,8 @@ const PrivacyPolicy = () => (
             <strong>Privacy Policy</strong>
           </h4>
           <p>
-            Serlina Utami built the SI Consult app as a Free app. This SERVICE
-            is provided by Serlina Utami at no cost and is intended for use as
+            STMIK Developer built the SI Consult app as a Free app. This SERVICE
+            is provided by STMIK Developer at no cost and is intended for use as
             is.
           </p>
           <p>
@@ -33,7 +33,7 @@ const PrivacyPolicy = () => (
           <p>
             For a better experience, while using our Service, I may require you
             to provide us with certain personally identifiable information,
-            including but not limited to Serlina Utami. The information that I
+            including but not limited to STMIK Developer. The information that I
             request will be retained on your device and is not collected by me
             in any way.
           </p>
